@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TravelRegistrationComponent } from './travel-registration/travel-registration.component';
 import { SearchPlaceComponent } from './search-place/search-place.component';
+import { ViewDestinationComponent } from './view-destination/view-destination.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TravelRegistrationComponent,
-    SearchPlaceComponent
+    SearchPlaceComponent,
+    ViewDestinationComponent
   ],
   imports: [
     BrowserModule,
